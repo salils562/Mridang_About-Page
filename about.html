@@ -1,0 +1,283 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Parampara || The Traditional fashion</title>
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans&display=swap" rel="stylesheet">
+    <style>
+         html{
+             scroll-behavior: smooth;
+         }
+        body::before{
+            content: "";
+            background: url('')no-repeat center center/cover;
+            position: absolute;
+            width: 100%;
+            height: 1200px;
+            z-index: -2;
+        }
+        *{
+            font-family: 'Open Sans', sans-serif;
+            margin: 0;
+            padding: 0;
+            top: 0px;
+            font-weight: bold;
+        }
+        body{
+            background:rgba(255, 255, 255, 0.822);
+        }
+        #navbar::before{
+            content: "";
+            position: absolute;
+            background-color:  rgb(255 174 52);
+            border-radius: 10px;
+            height: 100px;
+            width: 100%;
+            z-index:-1;
+            opacity: 0.9;
+        }
+        #navbar{
+            display: flex;
+            position: sticky;
+        }
+     #logo{
+         width: 11%;
+         height: 100px;
+     }
+     #navbar ul{
+         display: flex;
+         padding: 26px 0px 0px 0px;
+         list-style: none;
+     }
+     .items{
+         color: rgb(255 174 52);
+         font-size:1.4rem;
+         padding:8px 21px;
+         font-weight: bold;
+     }
+     .items a{
+         text-decoration: none;
+         color: black;
+
+     }
+     #about-parampara{
+         margin: 59px 0px 0px 60px;
+         font-size: 1.3rem;
+         display: flex;
+         flex-direction: row;
+     }
+     #about{
+         width: 50%;
+     }
+     #about-parampara hr{
+         width: 25%;
+         height: 10px;
+         margin: 11px 14px 31px 0px;
+         background-color: rgb(255, 153, 0);
+         border-radius: 5px;
+         opacity: 0.5;
+    
+     }
+     #about-parampara h1{
+         margin: 1px 2px 9px 0px;
+     }
+     #why-parampara{
+         margin: 43px 26px 0px 61px;
+         font-size: 1.3rem;
+        }
+        #why-parampara hr{
+            width: 20%;
+            height: 10px;
+            margin: 11px 14px 31px 0px;
+            background-color: rgb(255, 153, 0);
+            border-radius: 5px;
+            opacity: 0.5;
+        }
+        #facilites{
+        margin: 63px 63px;
+        font-size: 1.3rem;
+    }
+    #namastey{
+        margin:49px 19px 10px 4px;
+    }
+    #facilites hr{
+        width: 25%;
+         height: 10px;
+         margin: 11px 14px 31px 0px;
+         background-color: rgb(255, 153, 0);
+         border-radius: 5px;
+         opacity: 0.5;
+    }
+    .acher{
+        padding: 4px 4px;
+        border-radius: 5px;
+    }
+    #navbar ul li a:hover{
+        color: aliceblue;
+        background: black;
+    }
+    #namas{
+        border-radius: 140px;
+    }
+    #Wears{
+       display: flex;
+       margin:50px 10px;
+    }
+    .wear{
+        width: 55%;
+        height: 200px;
+        border-radius: 150px;
+        margin: 0px 76px 0px 0px;
+    }
+    .wear-1{
+        width: 60%;
+        height: 200px;
+        border-radius: 150px;
+    }
+    #faci{
+        padding:20px 20px;
+        align-items: center;
+        text-align: center;
+
+    }
+    #tagLine{
+        background-color: rgb(230, 207, 166);
+        border-radius: 120px;
+        padding: 10px 10px;
+    }
+    @media only screen and (max-width:1095px) and (min-width:600px){
+             #navbar,#Wears{
+                 overflow: hidden;
+             }
+             .wear{
+                width: 91%;
+                height: 200px;
+                border-radius: 150px;
+                margin: 0px 76px 0px 0px;
+            }
+            .wear-1{
+                width: 86%;
+                height: 200px;
+                border-radius: 150px;
+            }
+            }
+            @media only screen and (max-width:595px){
+             #navbar{
+                 flex-direction: column;
+                 align-items: center;
+             }   
+             #navbar::before{
+                 display: none;
+             }
+             #navbar{
+                 background-color: orange;
+                 height: 80px;
+             }
+             #navbar ul li{
+                 margin: -33px -17px 0px -21px;
+                 padding: 0px 26px 0px 19px;
+             }
+             #logo{
+                width: 32%;
+                height: 79px;
+             }
+             #navbar,#Wears{
+                 overflow: hidden;
+             }
+             #about-parampara{
+                 display: flex;
+                 flex-wrap: wrap;
+             }
+             #navbar ul{
+                 padding:13px 0px 0px 0px;
+             }
+             #navbar ul li{
+                 font-size: 1rem;
+             }
+             #namastey{
+                 padding:0px 0px 0px 0px;
+                 margin: 49px 19px 10px 4px;
+             }
+             #Wears{
+                 flex-direction: column;
+                 flex-wrap: wrap;
+             }
+             .elements{
+                 display: flex;
+                 flex-direction: row;
+                 margin: 14px 32px 4px 0px;
+             }
+             .wear{
+                 margin:0px 0px 0px 0px;
+                 height:109px;
+             }
+             .wear-1{
+                width: 51%;
+                height: 104px;
+                border-radius: 150px;
+             }
+             #tagLine{
+                width: 100%;
+             }
+             
+         }
+    
+    </style>
+</head>
+<body>
+    <nav id="navbar">
+        <img src="images/logo.jpg" id="logo">
+        <ul>
+            <li class="items"><a href="#" class="acher">Home</a></li>
+            <li class="items"><a href="#" class="acher">Traditional-wear</a></li>
+            <li class="items"><a href="#" class="acher">About us</a></li>
+            <li class="items"><a href="#" class="acher">Contact us</a></li>
+        </ul>
+    </nav>
+    <section id="about-parampara">
+        <div id="about">
+        <h1>What is parampara?</h1>
+        <hr>
+        <p>Parampara is not just a clothing brands which provides you traditional clothes, It is the way of life to live. Here at Parampara-
+            We provide people their traditional values and culture and most important the feeling of uniqueness and belonging.</p>
+        </div>
+        <div id="namastey">
+            <img src="images/namastey-2.png" id="namas">
+        </div>
+    </section>
+    <section id="why-parampara">
+      <h1>Why parampara?</h1>
+      <hr>
+      <p>  having Parampara as a clothing brand or having Parampara as a quality IN yourself, both are going to be appreciated.
+        In Parampara we have our originally designed products which will keep us and you Unique.
+        Be the part of Parampara family to be in touch with your roots always, because Deep Roots stand high.</p>
+    </section>
+    <section id="facilites">
+        <h1>Facilites we provide</h1>
+        <hr>
+        <div id="Wears">
+        <div class="elements">
+         <img src="images/clothes.jpg" class="wear">
+         <img src="images/clothes-2.jpg" class="wear">
+        </div>
+        <div class="elements">
+         <img src="images/clothes-3.jpg" class="wear-1">
+         <img src="images/clothes-4.jpg" class="wear-1">
+        </div>
+        <div class="elements">
+         <img src="images/clothes-5 (1).jpg" class="wear-1">
+         <img src="images/clothes-6.jpg" class="wear-1">
+        </div></div>
+        <div id="faci">
+           <p> We are focused to provide people traditional clothes..which is acting as a bridge to connect traditional and trending clothes.<br>
+            If you are the member of parampara you will not be feeling disconnected to your culture nor you will be left out from the trend.<br>
+            Also we have a broad variety in clothes where you are free to choose among thousand of designs and we are providing to every age groups from a little champ to our old ones, Parampara got it all covered. And the best part is you can enjoy it all from your home through our website<br><br></p>
+                    
+            <p id="tagLine"><b>This is what make us different from others.<br>
+            PARAMPARA..The Look You Need The Style You Crave.</b></p>
+        </div>
+    </section>
+</body>
+</html>
